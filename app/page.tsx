@@ -8,6 +8,7 @@ import WhatIDo from './components/sections/WhatIDo';
 import Experience from './components/sections/Experience';
 import Skills from './components/sections/Skills';
 import Projects from './components/sections/Projects';
+import GitHubActivity from './components/sections/GitHubActivity';
 import Achievements from './components/sections/Achievements';
 import Education from './components/sections/Education';
 import Contact from './components/sections/Contact';
@@ -36,6 +37,7 @@ export default function Home() {
         <Experience />
         <Skills />
         <Projects />
+        <GitHubActivity />
         <Achievements />
         <Education />
         <Contact />
