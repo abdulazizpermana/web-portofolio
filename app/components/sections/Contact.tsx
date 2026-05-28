@@ -8,7 +8,7 @@ const contactLinks = [
   {
     icon: Mail,
     label: 'Email',
-    value: 'hi@abdulazizpermana.com',
+    value: 'abdulpermana.dev@gmail.com',
     href: 'mailto:hi@abdulazizpermana.com',
     color: 'from-red-400 to-pink-400',
   },

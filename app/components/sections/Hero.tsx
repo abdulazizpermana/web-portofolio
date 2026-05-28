@@ -107,11 +107,11 @@ export default function Hero() {
             variants={itemVariants}
             className="mb-8 flex items-center justify-center"
           >
-            <div className="relative min-h-[96px] w-full max-w-2xl px-4 md:min-h-[128px]">
+            <div className="relative h-[56px] w-full max-w-4xl px-4 md:h-[72px]">
               {titles.map((title, index) => (
                 <motion.span
                   key={title}
-                  className="absolute inset-0 flex items-center justify-center text-center text-2xl font-semibold leading-tight text-foreground/80 dark:text-white/80 md:text-4xl"
+                  className="absolute inset-0 flex items-center justify-center text-center text-xl font-semibold leading-none text-foreground/80 dark:text-white/80 sm:text-2xl md:text-4xl"
                   initial={{ opacity: 0, y: 20 }}
                   animate={{
                     opacity: index === currentTitleIndex ? 1 : 0,
@@ -119,7 +119,7 @@ export default function Hero() {
                   }}
                   transition={{ duration: 0.5 }}
                 >
-                  <span className="max-w-[16ch] text-balance">{title}</span>
+                  <span className="whitespace-nowrap">{title}</span>
                 </motion.span>
               ))}
             </div>
